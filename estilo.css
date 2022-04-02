@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+
+
+header ul li img {
+    display: flex;
+    align-items: center;
+    width: 50px;
+
+}
+
+header ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+}
+
+header ul li {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.lado-esquerdo{
+    display: flex;
+    float: left;
+    align-items: center;
+    
+
+}
+
+.google{
+    width: 150px;
+}
+
+.input{
+    width: 700px;
+    height: 45px;
+    border:0;
+    outline: 0;
+    border: 1px solid #b9b3b3;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.teclado, .microfone, .lupa{
+    display: flex;
+    width:40px;
+    margin-left: -170px;
+    padding:7px;
+}
+
+.lupa{
+    width: 55px;
+}
+
+
+
+.lado-direito{
+    display: flex;
+    float: right;
+
+}
+
+.lado-direito img{
+    border-radius: 50%;
+    display: flex;
+    margin:-10px;
+    padding:5px;
+    cursor: pointer;
+}
+
+.lado-direito .menu{
+    border-radius: 0px;
+    width: 40px;
+}
+
+
+.menu-principal{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    cursor: pointer;
+}
+
+.menu-principal ul{
+    margin-right: 20px;
+    list-style: none;
+}
+
+.menu-principal ul li{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+p{
+    margin: 50px;
+    font-size:18px;
+}
+
+section{
+    max-width: 90%;
+    display:block;
+    margin: auto;
+}
+
+section div{
+    margin: 30px;
+}
+
+section div a{
+    text-decoration: none;
+    font-size:25px;
+    color: blue;
+    cursor: pointer;
+}
+
+section h2{
+    font-size: 20px;
+    max-width: 50%;
+    color: rgb(77, 75, 75);
+}
+
+.listas{
+    display: flex;
+    align-items: center;
+}
+
+.listas .seta{
+ width: 30px;
+ cursor: pointer;
+}
+span{
+    color: rgb(31, 98, 197);
+}
+
+.geral-numeros {
+    display: flex;
+    margin-top: 200px;
+    margin-left: -300px;
+    
+
+}
+
+.geral-numeros a{
+    margin-right:20px;
+}
+
+.numeros{
+    margin-right: -10px;
+    padding: 5px;
+    color:#ffffff;
+    font-size: 20px;
+    background-color:#2929f3;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
